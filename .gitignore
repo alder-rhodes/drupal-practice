@@ -68,3 +68,4 @@
 .DS_Store
 .idea
 .ddev
+db-backups/
