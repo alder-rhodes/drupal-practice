@@ -17,4 +17,6 @@ created git@github.com:alder-rhodes/drupal-sdc-theme.git
 - git submodule add git@github.com:uswds/uswds.git web/themes/uswds
 
 
+npm install --save-dev @elenajs/mcp
 
+/ 588×438px

@@ -69,3 +69,5 @@
 .idea
 .ddev
 db-backups/
+scratch/
+
