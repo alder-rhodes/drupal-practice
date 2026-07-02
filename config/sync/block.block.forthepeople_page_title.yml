@@ -1,0 +1,20 @@
+uuid: 36742ee5-4d26-4c1b-820b-687808275ae9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - forthepeople
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: forthepeople_page_title
+theme: forthepeople
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

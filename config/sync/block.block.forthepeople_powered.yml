@@ -1,0 +1,22 @@
+uuid: 8e009f9f-3ab4-44b9-a9cd-30bb0e0b4524
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - forthepeople
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: forthepeople_powered
+theme: forthepeople
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

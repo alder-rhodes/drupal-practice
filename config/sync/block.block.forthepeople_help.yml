@@ -1,0 +1,22 @@
+uuid: 0680742a-668c-4f9d-9f1e-92e08f5b94d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - forthepeople
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: forthepeople_help
+theme: forthepeople
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

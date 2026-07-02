@@ -1,0 +1,22 @@
+uuid: 263a0d21-a0fe-4ff1-a7d9-41258f843a3b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - forthepeople
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: forthepeople_primary_local_tasks
+theme: forthepeople
+region: pre_content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

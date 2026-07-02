@@ -1,0 +1,22 @@
+uuid: 247a9d3e-41b1-4316-9618-7239ae59040e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - forthepeople
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: forthepeople_breadcrumbs
+theme: forthepeople
+region: pre_content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
