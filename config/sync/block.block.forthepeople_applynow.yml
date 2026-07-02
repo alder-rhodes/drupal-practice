@@ -1,0 +1,23 @@
+uuid: dff69c43-e0df-40bf-8307-8902e1f984b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:link:a4abe764-937d-4a38-bdd0-814958107c7b'
+  module:
+    - block_content
+  theme:
+    - forthepeople
+id: forthepeople_applynow
+theme: forthepeople
+region: header_cta
+weight: 0
+provider: null
+plugin: 'block_content:a4abe764-937d-4a38-bdd0-814958107c7b'
+settings:
+  id: 'block_content:a4abe764-937d-4a38-bdd0-814958107c7b'
+  label: 'Apply Now'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

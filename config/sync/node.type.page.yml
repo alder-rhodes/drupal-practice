@@ -1,0 +1,17 @@
+uuid: 9cc32a61-f926-48df-8606-6c08cdf6d8ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Page
+type: page
+description: 'an advanced version of a page '
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

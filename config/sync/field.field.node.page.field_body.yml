@@ -1,0 +1,30 @@
+uuid: 5a3e0e5c-6616-43aa-9d7e-23e4f9202750
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - filter.format.basic_html
+    - node.type.page
+  module:
+    - text
+id: node.page.field_body
+field_name: field_body
+entity_type: node
+bundle: page
+label: Body
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: '<p>You content can go here</p>'
+    summary: 'a summary is required (tip: LLMs are good at summaries)'
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: true
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

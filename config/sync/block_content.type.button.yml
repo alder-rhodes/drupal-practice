@@ -1,0 +1,8 @@
+uuid: 2fb384ad-1355-4e85-bfed-207215c44884
+langcode: en
+status: true
+dependencies: {  }
+id: button
+label: Button
+revision: false
+description: 'a stand-alone button, usually used as a call to action'

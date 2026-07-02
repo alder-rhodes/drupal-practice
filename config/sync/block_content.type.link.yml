@@ -1,0 +1,8 @@
+uuid: 65d15848-57d2-4f63-919e-db55e4f48feb
+langcode: en
+status: true
+dependencies: {  }
+id: link
+label: Link
+revision: false
+description: 'a stand-alone link, usually used as a call to action'
