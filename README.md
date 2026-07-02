@@ -11,4 +11,10 @@ to learn USWDS and Drupal SDC, I'm going to try to build a really simple site wi
 - ddev launch $(ddev drush uli)
 - update settings.php
 - ddev drush cex
-- ddev snapshot 
+- ddev snapshot
+
+created git@github.com:alder-rhodes/drupal-sdc-theme.git
+- git submodule add git@github.com:uswds/uswds.git web/themes/uswds
+
+
+

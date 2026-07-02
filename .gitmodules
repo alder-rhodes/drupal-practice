@@ -1,0 +1,3 @@
+[submodule "web/themes/custom/drupal-sdc-theme"]
+	path = web/themes/custom/drupal-sdc-theme
+	url = git@github.com:alder-rhodes/drupal-sdc-theme.git
