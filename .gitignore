@@ -63,3 +63,8 @@
 /drush
 /drupal.phar
 /drupal
+
+// Personal files
+.DS_Store
+.idea
+.ddev
